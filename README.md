@@ -11,4 +11,6 @@ See [QuizGame.ino](QuizGame.ino) file for source code.
 
 [ Circuit Diagram ]
 
+<img src="img/ArduinoScannerCircuit.jpg" width="500">
+
 fixme
