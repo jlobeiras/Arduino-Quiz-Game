@@ -9,7 +9,7 @@ You will also need a USB barcode reader that uses a normal keyboard HID interfac
 
 See [QuizGame.ino](QuizGame.ino) file for source code.
 
-See []() file for some question card examples.
+See [ExampleQuestionCards.pdf](ExampleQuestionCards.pdf) file for some question card examples.
 
 [ Circuit Diagram ]
 
