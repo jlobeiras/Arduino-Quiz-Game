@@ -9,8 +9,10 @@ You will also need a USB barcode reader that uses a normal keyboard HID interfac
 
 See [QuizGame.ino](QuizGame.ino) file for source code.
 
+See []() file for some question card examples.
+
 [ Circuit Diagram ]
 
 <img src="img/ArduinoScannerCircuit.jpg" width="500">
 
-fixme
+Note: some USB Host shield modules do not have the power selection jumpers configured, in such cases you should use a soldering iron to bridge the three jumper points marked by the two yellow circles, otherwise the USB device will receive no power from the shield.
