@@ -24,4 +24,5 @@ Four type of questions are supported:
 4. Sort the answers: The barcodes should be of the form 4ABC, with A=numberOfElements and B+C should form a sequence from 6 to A+5.
 
 See [ExampleQuestionCards.pdf](ExampleQuestionCards.pdf) file for some question card examples.
+
 <a href="ExampleQuestionCards.pdf"><img src="img/ExampleSortCard.jpg" width="500"></a>
