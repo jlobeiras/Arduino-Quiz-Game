@@ -122,7 +122,7 @@ public:
     // Sort question
     // 4ABC with A=numItems, B+C in sequence from 6 to A+5
     int pSort(int a, int b, int c) {
-        if(numItems == 99 || secuencia == 99) {
+        if(numItems > 9 || secuencia > 19) {
             numItems = a;
             secuencia = 6;
         }
