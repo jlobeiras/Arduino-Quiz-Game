@@ -1,5 +1,5 @@
 # Arduino-Quiz-Game
-Device code for an Arduino based quiz game.
+Device code for an Arduino based quiz game using a barcode scanner.
 
 <img src="img/Barcode1.jpg" width="500">
 
