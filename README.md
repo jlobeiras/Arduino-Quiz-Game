@@ -9,10 +9,19 @@ You will also need a USB barcode reader that uses a normal keyboard HID interfac
 
 See [QuizGame.ino](QuizGame.ino) file for source code.
 
-See [ExampleQuestionCards.pdf](ExampleQuestionCards.pdf) file for some question card examples.
-
 [ Circuit Diagram ]
 
 <img src="img/ArduinoScannerCircuit.jpg" width="500">
 
 Note: some USB Host shield modules do not have the power selection jumpers configured, in such cases you should use a soldering iron to bridge the three jumper points marked by the two yellow circles, otherwise the USB device will receive no power from the shield.
+
+[ Question cards ]
+
+Four type of questions are supported:
+1. Single correct answer: The barcodes should have 4 digits following the pattern 1ABC, with A+B+C an odd number for correct anser.
+2. Multiple correct answers: The barcodes should follow the pattern 2ABC with A=numberOfCorrectAnswers, B=2^x for correct (1/2/4/8) and not power of 2 por incorrect anser (0/3/5/6/7/9), C=constant (different for each card).
+3. Match pairs of terms: The barcodes should be of the form 3A00 for the first term (with A=termIdentifier) and 30BC for the second term (with A=|B-C| for the correct answer).
+4. Sort the answers: The barcodes should be of the form 4ABC, with A=numberOfElements and B+C should form a sequence from 6 to A+5.
+
+See [ExampleQuestionCards.pdf](ExampleQuestionCards.pdf) file for some question card examples.
+<a href="ExampleQuestionCards.pdf"><img src="img/ExampleSortCard.jpg" width="500"></a>
