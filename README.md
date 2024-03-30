@@ -19,7 +19,7 @@ Note: some USB Host shield modules do not have the power selection jumpers confi
 
 Four types of questions are supported:
 1. Single correct answer: The barcodes should have 4 digits following the pattern 1ABC, with A+B+C an odd number for correct anser.
-2. Multiple correct answers: The barcodes should follow the pattern 2ABC with A=numberOfCorrectAnswers, B=2<sup>x</sup> for correct (1/2/4/8) and not power of 2 por incorrect anser (0/3/5/6/7/9), C=constant (different for each card).
+2. Multiple correct answers: The barcodes should follow the pattern 2ABC with A=numberOfCorrectAnswers, B=2<sup>x</sup> for correct and not power of 2 por incorrect anser, C=constant (different for each card).
 3. Match pairs of terms: The barcodes should be of the form 3A00 for the first term (with A=termIdentifier) and 30BC for the second term (with A=|B-C| for the correct answer).
 4. Sort the answers: The barcodes should be of the form 4ABC, with A=numberOfElements and B+C should be a sequence from 6 to A+5.
 
