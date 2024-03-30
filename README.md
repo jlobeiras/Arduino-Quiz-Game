@@ -9,13 +9,13 @@ You will also need a USB barcode reader that uses a normal keyboard HID interfac
 
 See [QuizGame.ino](QuizGame.ino) file for source code.
 
-[ Circuit Diagram ]
+[ **Circuit Diagram** ]
 
 <img src="img/ArduinoScannerCircuit.jpg" width="500">
 
 Note: some USB Host shield modules do not have the power selection jumpers configured, in such cases you should use a soldering iron to bridge the three jumper points marked by the two yellow circles, otherwise the USB device will receive no power from the shield.
 
-[ Question cards ]
+[ **Question cards** ]
 
 Four type of questions are supported:
 1. Single correct answer: The barcodes should have 4 digits following the pattern 1ABC, with A+B+C an odd number for correct anser.
