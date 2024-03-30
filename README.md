@@ -7,7 +7,9 @@ Use an Arduino UNO with a USB host shield installed and connect a passive buzzer
 You can change the pin in the source code our update the different melodies.
 You will also need a USB barcode reader that uses a normal keyboard HID interface.
 
-See [QuizGame.ino](QuizGame.ino) file for source code.
+**[ Arduino code ]**
+
+See [QuizGame.ino](QuizGame.ino) file for microcontroller source code.
 
 **[ Circuit Diagram ]**
 
