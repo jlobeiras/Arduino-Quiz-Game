@@ -28,3 +28,9 @@ Four types of questions are supported:
 See [ExampleQuestionCards.pdf](ExampleQuestionCards.pdf) file for some question card examples.
 
 <a href="ExampleQuestionCards.pdf"><img src="img/ExampleSortCard.jpg" width="500"></a>
+
+**[ Demo video ]**
+
+Video showing the project and the different types of question cards (in galician language):
+
+https://www.youtube.com/watch?v=I-SmN0XP7is
